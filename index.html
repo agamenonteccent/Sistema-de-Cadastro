@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Cadastro</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sistema de Cadastro</h1>
+        <form id="form">
+            <input type="text" id="name" placeholder="Nome" required>
+            <input type="date" id="dob" required>
+            <input type="tel" id="phone" placeholder="Telefone" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <button type="submit">Cadastrar</button>
+        </form>
+
+        <h2>Consultar Cadastro</h2>
+        <input type="text" id="search" placeholder="Buscar por nome">
+        <button id="btnSearch">Buscar</button>
+
+        <div class="results" id="results"></div>
+
+        <h2>Excluir Cadastro</h2>
+        <input type="text" id="delete" placeholder="Nome para excluir">
+        <button id="btnDelete">Excluir</button>
+    </div>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>
