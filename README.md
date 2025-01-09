@@ -18,8 +18,7 @@
 <hr>
 <br>
 <div align="left">
-  <a href="https://github.com/agamenonteccent">
-  <img height="180em" src="https://hosistec.com.br/agamenon/"  alt="agamenonteccent"/></a>
+  <a href="https://hosistec.com.br/agamenon/" target="_blank"><img src="https://img.shields.io/badge/-Documentação-%23E4405F?style=for-the-badge&logo=site&logoColor=white" target="_blank"></a>
 </div>
 
 <div style="display: inline_block">
